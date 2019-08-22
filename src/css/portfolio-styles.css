@@ -7,6 +7,12 @@ body {
     font-family: 'IndieFlower-Regular', cursive;
     background-color: #ccc;
 }
+
+html {
+     overflow-x: hidden; 
+     scroll-behavior: smooth;
+}
+
 .my-bg-color {
     background-color: #82A7AA;
 }
@@ -27,7 +33,7 @@ img {
 	height: 239px;
 	margin: 10px;
     transition: all 1s;
-    border-radius: 20%;
+    border-radius: 40%;
 }
 
 img:hover {
@@ -52,5 +58,5 @@ footer {
     background-color: #82A7AA;
     height: 100px;
     text-align: center;
-    /* position: fixed; */
+    padding: 30px;
 }
