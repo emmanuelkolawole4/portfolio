@@ -1,0 +1,56 @@
+@font-face {
+    font-family: IndieFlower-Regular;
+    src: url(../fonts/IndieFlower-Regular.ttf);
+  }
+
+body {
+    font-family: 'IndieFlower-Regular', cursive;
+    background-color: #ccc;
+}
+.my-bg-color {
+    background-color: #82A7AA;
+}
+/* .navlink-bg:hover {
+    background-color: #fff !important;
+    padding: 10px;
+    border: none;
+} */
+.jumbo-bg {
+    background-image:   url('../images/different_dual-wallpaper-2560x16002.jpg');
+    height: 500px;
+    /* max-width: 100%; */
+    /* background-repeat: no-repeat; */
+    /* width: 100% !important; */
+}
+img {
+	width: 100%;
+	height: 239px;
+	margin: 10px;
+    transition: all 1s;
+    border-radius: 20%;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+h1 {
+    background-color: #2EBA4F;
+    color: #fff;
+    padding: 5px;
+    font-weight: bolder;
+}
+p {
+    border: 5px solid #2EBA4F;
+    border-style: double dashed;
+    border-top: none;
+    text-align: justify;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+footer {
+    background-color: #82A7AA;
+    height: 100px;
+    text-align: center;
+    /* position: fixed; */
+}
